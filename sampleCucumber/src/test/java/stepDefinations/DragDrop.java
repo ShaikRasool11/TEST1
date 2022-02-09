@@ -54,7 +54,7 @@ DragandDrop dd;
 	@Then("^validating whether the range value shows nintyfive$")
 	public void validating_whether_the_range_value_shows() throws Throwable {
 	   String range= dd.VerifyRange().getText();
-	   System.out.println("The range is "+range)
+	   System.out.println("The range is "+range);
 	     if(range.equalsIgnoreCase("95")){
 			 System.out.println("95 is correctly printed");
 		 }
