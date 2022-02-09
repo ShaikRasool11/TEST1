@@ -43,38 +43,37 @@ formatter.match({
   "location": "DragDrop.open_LambdaTests_Selenium_Playground()"
 });
 formatter.result({
-  "duration": 1499005912,
+  "duration": 1341361235,
   "status": "passed"
 });
 formatter.match({
   "location": "DragDrop.click_Drag_Drop_Sliders_under_Progress_Bars_Sliders()"
 });
 formatter.result({
-  "duration": 1726138388,
+  "duration": 2066723594,
   "status": "passed"
 });
 formatter.match({
   "location": "DragDrop.select_the_slider_Default_value()"
 });
 formatter.result({
-  "duration": 57850,
+  "duration": 43351,
   "status": "passed"
 });
 formatter.match({
   "location": "DragDrop.drag_the_bar_to_make_it_by()"
 });
 formatter.result({
-  "duration": 4268277244,
+  "duration": 4312080015,
   "status": "passed"
 });
 formatter.match({
   "location": "DragDrop.validating_whether_the_range_value_shows()"
 });
 formatter.result({
-  "duration": 463598808,
+  "duration": 1429360251,
   "status": "passed"
-});
-formatter.uri("InputFormSubmit.feature");
+});formatter.uri("InputFormSubmit.feature");
 formatter.feature({
   "line": 1,
   "name": "InputFormSubmit",
@@ -129,20 +128,21 @@ formatter.match({
   "location": "InputFormSubmit.open_the_lambdatest_selenium_playground_page()"
 });
 formatter.result({
-  "duration": 2395002552,
+  "duration": 2867800943,
   "status": "passed"
 });
 formatter.match({
   "location": "InputFormSubmit.click_Input_Form_Submit_under_Input_Forms()"
 });
 formatter.result({
-  "duration": 1494561045,
+  "duration": 996192236,
   "status": "passed"
 });
 formatter.match({
   "location": "InputFormSubmit.click_Submit_without_filling_in_any_information_in_the_form()"
-});fformatter.result({
-  "duration": 869677354,
+});
+formatter.result({
+  "duration": 281223734,
   "status": "passed"
 });
 formatter.match({
@@ -155,20 +155,21 @@ formatter.match({
   "location": "InputFormSubmit.assert_error_message(String)"
 });
 formatter.result({
-  "duration": 408376939,
+  "duration": 373016168,
   "status": "passed"
 });
 formatter.match({
   "location": "InputFormSubmit.fill_in_Name_Email_and_other_fields()"
-});fformatter.result({
-  "duration": 7935806527,
+});
+formatter.result({
+  "duration": 3872593693,
   "status": "passed"
 });
 formatter.match({
   "location": "InputFormSubmit.click_Submit()"
 });
 formatter.result({
-  "duration": 549206304,
+  "duration": 239366180,
   "status": "passed"
 });
 formatter.match({
@@ -181,9 +182,10 @@ formatter.match({
   "location": "InputFormSubmit.once_submitted_validate_the_success_message(String)"
 });
 formatter.result({
-  "duration": 593500578,
+  "duration": 448504518,
   "status": "passed"
-});fformatter.uri("SimpleFormDemo.feature");
+});
+formatter.uri("SimpleFormDemo.feature");
 formatter.feature({
   "line": 2,
   "name": "SimpleDemoForm",
@@ -231,42 +233,44 @@ formatter.step({
 });
 formatter.match({
   "location": "SimpleFormDemo.open_LambdaTests_Selenium_Playground_from()"
-});fformatter.result({
-  "duration": 3737269139,
+});
+formatter.result({
+  "duration": 4693497188,
   "status": "passed"
 });
 formatter.match({
   "location": "SimpleFormDemo.click_Simple_Form_Demo_under_Input_Forms()"
-});fformatter.result({
-  "duration": 4291437548,
+});
+formatter.result({
+  "duration": 1231124880,
   "status": "passed"
 });
 formatter.match({
   "location": "SimpleFormDemo.validate_that_the_URL_contains_simple_form_demo()"
 });
 formatter.result({
-  "duration": 95047325,
+  "duration": 69397268,
   "status": "passed"
 });
 formatter.match({
   "location": "SimpleFormDemo.create_a_variable_to_enter_values_in_the_Enter_Message_text_box()"
 });
 formatter.result({
-  "duration": 1590667023,
+  "duration": 723336163,
   "status": "passed"
 });
 formatter.match({
   "location": "SimpleFormDemo.click_Get_Checked_Value()"
 });
 formatter.result({
-  "duration": 707750504,
+  "duration": 318534152,
   "status": "passed"
 });
 formatter.match({
   "location": "SimpleFormDemo.validate_whether_the_same_text_message_is_displayed_under_the_Your_Message_section()"
 });
 formatter.result({
-  "duration": 1647262048,
+  "duration": 2615994696,
   "status": "passed"
 });
-});
+});;;;

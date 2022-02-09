@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-09T06:33:35Z" name="Suite" finished-at="2022-02-09T06:35:48Z" duration-ms="133566">
+    <groups>
+      <group name="cucumber">
+        <method signature="TestRunner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:MyRunner.TestRunner@4f704591]" name="feature" class="MyRunner.TestRunner"/>
+        <method signature="TestRunner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:MyRunner.TestRunner@398dada8]" name="feature" class="MyRunner.TestRunner"/>
+        <method signature="TestRunner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:MyRunner.TestRunner@6a47b187]" name="feature" class="MyRunner.TestRunner"/>
+        <method signature="TestRunner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:MyRunner.TestRunner@5495333e]" name="feature" class="MyRunner.TestRunner"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2022-02-09T06:33:35Z" name="Windows 7 Test" finished-at="2022-02-09T06:34:49Z" duration-ms="74582">
+      <class name="MyRunner.TestRunner">
+        <test-method is-config="true" signature="setUpCucumber()[pri:0, instance:MyRunner.TestRunner@4f704591]" started-at="2022-02-09T06:33:35Z" name="setUpCucumber" finished-at="2022-02-09T06:33:35Z" duration-ms="212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpCucumber -->
+        <test-method is-config="true" signature="setUpClass(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:MyRunner.TestRunner@4f704591]" started-at="2022-02-09T06:33:35Z" name="setUpClass" finished-at="2022-02-09T06:34:03Z" duration-ms="28088" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[82.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows 7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:MyRunner.TestRunner@4f704591]" started-at="2022-02-09T06:34:03Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2022-02-09T06:34:11Z" duration-ms="8169" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DragAndDropSlider]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="setUpClass(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:MyRunner.TestRunner@4f704591]" started-at="2022-02-09T06:34:11Z" name="setUpClass" finished-at="2022-02-09T06:34:23Z" duration-ms="11722" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[82.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows 7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:MyRunner.TestRunner@4f704591]" started-at="2022-02-09T06:34:23Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2022-02-09T06:34:32Z" duration-ms="9170" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[InputFormSubmit]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="setUpClass(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:MyRunner.TestRunner@4f704591]" started-at="2022-02-09T06:34:32Z" name="setUpClass" finished-at="2022-02-09T06:34:43Z" duration-ms="10865" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[82.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows 7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:MyRunner.TestRunner@4f704591]" started-at="2022-02-09T06:34:43Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2022-02-09T06:34:49Z" duration-ms="6269" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SimpleDemoForm]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:MyRunner.TestRunner@4f704591]" started-at="2022-02-09T06:34:49Z" name="tearDownClass" finished-at="2022-02-09T06:34:49Z" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- MyRunner.TestRunner -->
+    </test> <!-- Windows 7 Test -->
+    <test started-at="2022-02-09T06:33:35Z" name="MacOSTest" finished-at="2022-02-09T06:34:57Z" duration-ms="82610">
+      <class name="MyRunner.TestRunner">
+        <test-method is-config="true" signature="setUpCucumber()[pri:0, instance:MyRunner.TestRunner@6a47b187]" started-at="2022-02-09T06:33:35Z" name="setUpCucumber" finished-at="2022-02-09T06:33:35Z" duration-ms="211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpCucumber -->
+        <test-method is-config="true" signature="setUpClass(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:MyRunner.TestRunner@6a47b187]" started-at="2022-02-09T06:33:35Z" name="setUpClass" finished-at="2022-02-09T06:34:02Z" duration-ms="27279" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Microsoft Edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[87.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[macOS Sierra]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:MyRunner.TestRunner@6a47b187]" started-at="2022-02-09T06:34:02Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2022-02-09T06:34:11Z" duration-ms="8856" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DragAndDropSlider]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="setUpClass(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:MyRunner.TestRunner@6a47b187]" started-at="2022-02-09T06:34:11Z" name="setUpClass" finished-at="2022-02-09T06:34:24Z" duration-ms="13062" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Microsoft Edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[87.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[macOS Sierra]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:MyRunner.TestRunner@6a47b187]" started-at="2022-02-09T06:34:24Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2022-02-09T06:34:42Z" duration-ms="17929" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[InputFormSubmit]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="setUpClass(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:MyRunner.TestRunner@6a47b187]" started-at="2022-02-09T06:34:42Z" name="setUpClass" finished-at="2022-02-09T06:34:51Z" duration-ms="9050" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Microsoft Edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[87.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[macOS Sierra]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:MyRunner.TestRunner@6a47b187]" started-at="2022-02-09T06:34:51Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2022-02-09T06:34:57Z" duration-ms="6136" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SimpleDemoForm]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:MyRunner.TestRunner@6a47b187]" started-at="2022-02-09T06:34:57Z" name="tearDownClass" finished-at="2022-02-09T06:34:57Z" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- MyRunner.TestRunner -->
+    </test> <!-- MacOSTest -->
+    <test started-at="2022-02-09T06:33:35Z" name="Windows-10" finished-at="2022-02-09T06:35:32Z" duration-ms="117444">
+      <class name="MyRunner.TestRunner">
+        <test-method is-config="true" signature="setUpCucumber()[pri:0, instance:MyRunner.TestRunner@5495333e]" started-at="2022-02-09T06:33:35Z" name="setUpCucumber" finished-at="2022-02-09T06:33:35Z" duration-ms="212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpCucumber -->
+        <test-method is-config="true" signature="setUpClass(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:MyRunner.TestRunner@5495333e]" started-at="2022-02-09T06:33:35Z" name="setUpClass" finished-at="2022-02-09T06:33:42Z" duration-ms="6851" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Internet Explorer]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[11.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows 10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:MyRunner.TestRunner@5495333e]" started-at="2022-02-09T06:33:42Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2022-02-09T06:33:50Z" duration-ms="8090" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DragAndDropSlider]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="setUpClass(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:MyRunner.TestRunner@5495333e]" started-at="2022-02-09T06:33:50Z" name="setUpClass" finished-at="2022-02-09T06:35:02Z" duration-ms="71669" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Internet Explorer]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[11.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows 10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:MyRunner.TestRunner@5495333e]" started-at="2022-02-09T06:35:02Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2022-02-09T06:35:11Z" duration-ms="9548" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[InputFormSubmit]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="setUpClass(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:MyRunner.TestRunner@5495333e]" started-at="2022-02-09T06:35:11Z" name="setUpClass" finished-at="2022-02-09T06:35:26Z" duration-ms="15273" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Internet Explorer]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[11.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows 10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:MyRunner.TestRunner@5495333e]" started-at="2022-02-09T06:35:26Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2022-02-09T06:35:32Z" duration-ms="5714" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SimpleDemoForm]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:MyRunner.TestRunner@5495333e]" started-at="2022-02-09T06:35:32Z" name="tearDownClass" finished-at="2022-02-09T06:35:32Z" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- MyRunner.TestRunner -->
+    </test> <!-- Windows-10 -->
+    <test started-at="2022-02-09T06:33:35Z" name="Windows 10 Test" finished-at="2022-02-09T06:35:48Z" duration-ms="133566">
+      <class name="MyRunner.TestRunner">
+        <test-method is-config="true" signature="setUpCucumber()[pri:0, instance:MyRunner.TestRunner@398dada8]" started-at="2022-02-09T06:33:35Z" name="setUpCucumber" finished-at="2022-02-09T06:33:35Z" duration-ms="211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpCucumber -->
+        <test-method is-config="true" signature="setUpClass(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:MyRunner.TestRunner@398dada8]" started-at="2022-02-09T06:33:35Z" name="setUpClass" finished-at="2022-02-09T06:33:42Z" duration-ms="7366" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[88.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows 10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:MyRunner.TestRunner@398dada8]" started-at="2022-02-09T06:33:42Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2022-02-09T06:33:50Z" duration-ms="7849" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DragAndDropSlider]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="setUpClass(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:MyRunner.TestRunner@398dada8]" started-at="2022-02-09T06:33:50Z" name="setUpClass" finished-at="2022-02-09T06:35:12Z" duration-ms="81798" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[88.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows 10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:MyRunner.TestRunner@398dada8]" started-at="2022-02-09T06:35:12Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2022-02-09T06:35:21Z" duration-ms="9084" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[InputFormSubmit]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="setUpClass(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:MyRunner.TestRunner@398dada8]" started-at="2022-02-09T06:35:21Z" name="setUpClass" finished-at="2022-02-09T06:35:39Z" duration-ms="17500" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[88.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows 10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:MyRunner.TestRunner@398dada8]" started-at="2022-02-09T06:35:39Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2022-02-09T06:35:48Z" duration-ms="9658" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SimpleDemoForm]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:MyRunner.TestRunner@398dada8]" started-at="2022-02-09T06:35:48Z" name="tearDownClass" finished-at="2022-02-09T06:35:48Z" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- MyRunner.TestRunner -->
+    </test> <!-- Windows 10 Test -->
+  </suite> <!-- Suite -->
+</testng-results>
